@@ -1,0 +1,11 @@
+﻿  源.cpp
+f:\visual studio 2017\bxjsexp2\bxjsexp2\源.cpp(9): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+源.obj : error LNK2019: 无法解析的外部符号 _MPI_Send@24，该符号在函数 _main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 _MPI_Recv@28，该符号在函数 _main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 _MPI_Comm_size@8，该符号在函数 _main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 _MPI_Comm_rank@8，该符号在函数 _main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 _MPI_Wtime@0，该符号在函数 _main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 _MPI_Init@8，该符号在函数 _main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 _MPI_Finalize@0，该符号在函数 _main 中被引用
+C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x64\msmpi.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+F:\visual studio 2017\bxjsexp2\Debug\bxjsexp2.exe : fatal error LNK1120: 7 个无法解析的外部命令
